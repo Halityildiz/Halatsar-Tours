@@ -47,7 +47,7 @@ button {
 main {
   width: 80vw;
   max-width: 768px;
-  margin: 5rem auto;
+  margin: 2rem auto;
 }
 
 .title {
@@ -111,7 +111,8 @@ main {
 .single-tour footer {
   padding: 1.5rem 2rem;
 }
-.single-tour .delete-btn {
+.single-tour .delete-btn,
+.refresh {
   display: block;
   width: 200px;
   margin: 1rem auto 0;
@@ -122,10 +123,23 @@ main {
   padding: 0.25rem 0.5rem;
   border-radius: 10px;
 }
-.single-tour .delete-btn:hover {
+.single-tour .delete-btn:hover,
+.refresh:hover {
   color: #fff;
   letter-spacing: 2px;
   background-color: #ec3b3b;
-
   box-shadow: 3px 6px 5px rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+  display: block;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #f3a469;
+  padding: 5px;
+  margin: auto;
+}
+.logo:hover {
+  transition: all 0.3s linear;
+  transform: rotate(360deg);
 }
